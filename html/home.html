@@ -3,13 +3,276 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <link rel="stylesheet" href="../css/styles.css">
-</head>
-<body>
-<section class="container">
-    <div>
-        <h1 class="font-type">Welcome</h1>
-    </div>
+    <link rel="stylesheet" href="../css/home-styles.css">
+    <style>
+        .header-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color and opacity as needed */
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #fff; /* Text color */
+        }
 
+        .header-text h1 {
+            margin: 0;
+            font-size: 24px; /* Adjust the font size as needed */
+        }
+
+    </style>
+</head>
+<header>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Gabriel Urbano</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#about-link">About</a></li>
+                    <li><a href="#projects-link">Projects</a></li>
+                    <li><a href="#resume-link">Resume</a></li>
+                    <li><a href="#contact-link">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <!--    this adds content in middle of header if desired...-->
+
+
+    <!--    <div class="header-text">-->
+    <!--        <h1>Hey there, I'm Gabriel Urbano</h1>-->
+    <!--    </div>-->
+
+
+    <section class="home">
+    </section>
+
+
+</header>
+<body>
+<main id="about">
+    <section>
+        <br>
+        <div>
+            <h2 id="about-h2">About Me</h2>
+        </div>
+        <div class="about-container">
+
+            <div class="about-card">
+                <div class="about-pic"></div>
+                <img src="../IMG_4894.JPG" height="1200hv"></div>
+            <p class="a-card">
+                I am a tech enthusiast and creative problem solver with a passion for crafting unique web experiences.
+                My
+                journey
+                into the tech world began in 2014 when I started coding and designing websites independently. Back
+                then, I
+                taught myself HTML and CSS, blending them with template builders to produce one-of-a-kind web
+                designs.
+                <br>
+                <br>
+                While pursuing a degree in Computer Science and Software Development, I decided to embark on a
+                different
+                path and served five years as an Air Traffic Control Navigation Aids Technician in the Marines. My
+                time
+                overseas in 2018 broadened my horizons, and I completed my contract with an honorable discharge in
+                January
+                2021.
+                <br>
+                <br>
+                My post-military career led me to the world of semiconductors before joining Ericsson as an
+                Equipment
+                Engineering Technician. Here, my passion for technology reignited, and I quickly climbed the ranks,
+                reaching
+                my growth ceiling in under a year.
+                <br>
+                <br>
+                My fascination with technology runs deep, from building servers and diving into crypto mining at the
+                age of
+                15 to exploring automation techniques with Python and Linux. To further my skills, I earned
+                certifications
+                in Python, JavaScript, HTML, CSS, and SQL through various online platforms, and I'm committed to
+                ongoing
+                learning in this dynamic field.
+                <br>
+                <br>
+                What sets me apart is my unwavering drive for excellence and dedication, honed over years in the
+                Marine
+                Corps. I'm no stranger to recognition, having been acknowledged as a top-performer both physically
+                and
+                academically, as well as one of the youngest Subject Matter Experts in my field. I thrive on seizing
+                every
+                opportunity for growth and have been entrusted with leadership roles at a young age, mentoring and
+                educating
+                my peers and superiors alike.
+                <br>
+                <br>
+                In my pursuit of mastery, I harness every available resource. Whether I'm conducting exhaustive
+                research or
+                leveraging AI to refine my work, I strive to be the best, aiming for recognition as a top-tier
+                employee by
+                future employers.
+                <br>
+                <br>
+                Beyond my tech prowess, I'm a self-taught musician who can play a multitude of instruments by ear,
+                and an
+                internationally published photographer with works featured in magazines and museums worldwide. My
+                keen eye
+                for detail and unique artistic perspective allow me to produce custom content and images that
+                resonate with
+                clients.
+                <br>
+                <br>
+                I'm thrilled to bring this passion, dedication, and unique skill set to the tech industry. I'm open
+                to
+                opportunities that allow me to collaborate, innovate, and excel. Let's create something
+                extraordinary
+                together.
+            </p>
+        </div>
+    </section>
+</main>
+<main id="projects">
+    <div style="height: 1000px">
+        <section id="projects-link">
+            <br>
+            <div>
+                <h2 id="projects-h2">My Projects</h2>
+            </div>
+        </section>
+    </div>
+</main>
+<main id="resume">
+    <div style="height: 1000px">
+        <section id="resume-link">
+            <br>
+            <div>
+                <h2 id="resume-h2">My Resume</h2>
+            </div>
+            <div>
+            </div>
+
+        </section>
+    </div>
+</main>
+<main id="contact">
+    <div style="height: 1000px">
+        <section id="contact-link">
+            <br>
+            <main>
+                <div>
+                    <h2 id="contact-h2">Contact Me</h2>
+                </div>
+                <section class="contact-form">
+                    <div style="font-size: 15px">
+                        <h2 style="margin-left: 20px">Send me a message</h2>
+                        <form action="../java/java.java" method="post">
+                            <div class="form-group">
+                                <div class="name-fields">
+                                    <div class="field">
+                                        <label for="first_name">First Name:</label>
+                                        <input type="text" id="first_name" name="first_name" required>
+                                    </div>
+                                    <div class="field">
+                                        <label for="last_name">Last Name:</label>
+                                        <input type="text" id="last_name" name="last_name" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="email-phone-fields">
+                                    <div class="field">
+                                        <label for="email">Email:</label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+                                    <div class="field">
+                                        <label for="phone">Phone Number:</label>
+                                        <input type="tel" id="phone" name="phone" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Additional Message:</label>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <button class='glowing-btn'><span class='glowing-txt'>S<span
+                                        class='faulty-letter'>UB</span>MIT</span></button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </main>
+        </section>
+    </div>
+</main>
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+    window.addEventListener('scroll', () => {
+        const aboutH2 = document.getElementById('about-h2');
+        const scrollPosition = window.scrollY;
+        const elementPosition = aboutH2.offsetTop;
+
+        if (scrollPosition > elementPosition - window.innerHeight / 2) {
+            aboutH2.classList.add('animate');
+        }
+    });
+    window.addEventListener('scroll', () => {
+        const aboutH2 = document.getElementById('projects-h2');
+        const scrollPosition = window.scrollY;
+        const elementPosition = aboutH2.offsetTop;
+
+        if (scrollPosition > elementPosition - window.innerHeight / 2) {
+            aboutH2.classList.add('animate');
+        }
+    });
+    window.addEventListener('scroll', () => {
+        const aboutH2 = document.getElementById('resume-h2');
+        const scrollPosition = window.scrollY;
+        const elementPosition = aboutH2.offsetTop;
+
+        if (scrollPosition > elementPosition - window.innerHeight / 2) {
+            aboutH2.classList.add('animate');
+        }
+    });
+    window.addEventListener('scroll', () => {
+        const aboutH2 = document.getElementById('contact-h2');
+        const scrollPosition = window.scrollY;
+        const elementPosition = aboutH2.offsetTop;
+
+        if (scrollPosition > elementPosition - window.innerHeight / 2) {
+            aboutH2.classList.add('animate');
+        }
+    });
+</script>
 </body>
+<footer style="font-size: 12px;">
+    <div class="container">
+        <footer class="py-3 my-4">
+            <p class="text-center text-muted">© 2022 Lux Lyfe Designs, LLC</p>
+        </footer>
+    </div>
+</footer>
 </html>
