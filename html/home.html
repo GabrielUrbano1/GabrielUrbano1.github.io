@@ -4,24 +4,10 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" href="../css/home-styles.css">
-    <style>
-        .header-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color and opacity as needed */
-            padding: 10px 20px;
-            border-radius: 5px;
-            color: #fff; /* Text color */
-        }
-
-        .header-text h1 {
-            margin: 0;
-            font-size: 24px; /* Adjust the font size as needed */
-        }
-
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9bf603c1d3.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <header>
     <nav class="nav">
@@ -37,33 +23,23 @@
                     <li><a href="#contact-link">Contact</a></li>
                 </ul>
             </div>
-            <span class="navTrigger">
-                <i></i>
-                <i></i>
-                <i></i>
-            </span>
         </div>
     </nav>
-
-    <!--    this adds content in middle of header if desired...-->
-
-
-    <!--    <div class="header-text">-->
-    <!--        <h1>Hey there, I'm Gabriel Urbano</h1>-->
-    <!--    </div>-->
-
-
+    <div class="header-text">
+        <h3><span>Hey there, I'm Gabriel Urbano</span></h3>
+    </div>
     <section class="home">
     </section>
-
-
 </header>
 <body>
 <main id="about">
-    <section>
+    <section id="about-link">
+        <br>
+        <br>
+        <br>
         <br>
         <div>
-            <h2 id="about-h2">About Me</h2>
+            <h2 id="about-h2"><span>About Me</span></h2>
         </div>
         <div class="about-container">
 
@@ -145,8 +121,42 @@
     <div style="height: 1000px">
         <section id="projects-link">
             <br>
+            <br>
+            <br>
+            <br>
             <div>
-                <h2 id="projects-h2">My Projects</h2>
+                <h2 id="projects-h2"><span>My Projects</span></h2>
+
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="projects-holder">
+                <div class="projectOne">
+                    <h3 style="font-size: 16px">Weather App</h3>
+                    <a href="https://github.com/GabrielUrbano1/weather-app" target="_blank">
+                        <img src="../img/weather%20screenshot.png" alt="Click me" class="img-weather" width="300px"
+                             height="200px">
+                    </a>
+                </div>
+                <div class="projectTwo">
+                    <h3 style="font-size: 16px">To-Do List App</h3>
+                    <a href="https://github.com/GabrielUrbano1/to-do-list-app" target="_blank">
+                        <img src="../img/to-do-list%20App.png" alt="Click me" class="img-todo" width="300px"
+                             height="200px">
+                    </a>
+                </div>
+                <div class="projectThree">
+                    <h3 style="font-size: 16px">Digital Clock App</h3>
+                    <a href="https://github.com/GabrielUrbano1/digital-clock" target="_blank">
+                        <img src="../img/digital_clock_app.png" alt="Click me" class="img-todo" width="300px"
+                             height="200px">
+                    </a>
+                </div>
+                <!--                <a href="https://example.com">-->
+                <!--                    <img src="your-image.jpg" alt="Click me">-->
+                <!--                </a>-->
             </div>
         </section>
     </div>
@@ -155,22 +165,172 @@
     <div style="height: 1000px">
         <section id="resume-link">
             <br>
+            <br>
+            <br>
+            <br>
             <div>
-                <h2 id="resume-h2">My Resume</h2>
+                <h2 id="resume-h2"><span>My Resume</span></h2>
+
             </div>
+            <br>
+            <br>
+            <br>
+            <br>
             <div>
-            </div>
+                <div class="container" style="font-size: 1vw">
+                    <h3 style="text-align: center">Gabriel Urbano</h3>
+                    <h3 style="text-align: center; font-size:18px">Software Developer</h3>
+                    <p style="text-align: center">Proficient in SQL, basic Python, Java, HTML, CSS, and JavaScript, I
+                        bring a unique blend of technical acumen and problem-solving abilities as a dynamic and
+                        results-driven software developer with a robust background in web development. Attended a
+                        rigorous full-stack web development boot camp to enhance technical expertise. In 2014 the coding
+                        journey began, with a focus on developing bespoke websites for private clients using a blend of
+                        coding skills and template builders. Military experience in the USMC as an air traffic control
+                        technician instilled discipline, a strong work ethic, and the ability to thrive in fast-paced
+                        environments. Eager to leverage skills and determination in a challenging software development
+                        role, continually striving to learn and contribute to technological advancements.</p>
+
+
+                    <div class="row" style="text-align: center">
+
+                        <p class="col-md-3"><i class="fa-solid fa-phone"></i> 732-351-5021</p>
+
+                        <p class="col-md-3"><i class="fa-solid fa-envelope"></i> gurbano1029@gmail.com</p>
+
+                        <p class="col-md-3"><i class="fa-brands fa-linkedin"></i> gabrielurbano1029</p>
+
+                        <p class="col-md-3"><i class="fa-brands fa-github"></i> gurbano1</p>
+
+                    </div>
+                    <br>
+                    <div id="line-break"></div>
+                    <br>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4">
+                                <h2>SKILLS AND ABILITIES</h2>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Git</li>
+                                    <li>Bootstrap</li>
+                                    <li>JavaScript</li>
+                                    <li>MySQL</li>
+                                    <li>Java</li>
+                                    <li>Spring MVC</li>
+                                    <li>Spring Boot</li>
+                                    <li>Hibernate</li>
+                                    <li>Thymeleaf</li>
+                                    <li>Object Oriented Programming</li>
+                                    <li>REST APIs</li>
+                                </ul>
+                                <h2>ACADEMIC</h2>
+                                <ul>
+                                    <li><p>Codeup Oct 2023 - March 2024</p></li>
+                                    <p>This 5-month coding boot camp teaches full-stack software development through 670
+                                        contact hours of hands-on technical training (20% more time than 4-year degree
+                                        majors require).</p>
+                                </ul>
+                                <h2>CERTIFICATES</h2>
+                                <ul>
+                                    <li>SOLOLEARN: SQL</li>
+                                    <li>SOLOLEARN: Introduction to Javascript</li>
+                                    <li>SOLOLEARN: Python for beginners</li>
+                                    <li>HACKER RANK: SQL Basic</li>
+                                    <li>COURSERA: SQL for Data Science</li>
+                                    <li>COURSERA: Getting started with Tableau</li>
+                                </ul>
+
+                            </div>
+                            <br>
+                            <div class="col-sm-12 col-md-8">
+                                <div class="experience">
+                                    <h2>EXPERIENCE</h2>
+                                    <h3 class="job-title">Equipment Maintenance Technician</h3>
+                                    <h4 class="company">Ericsson - Plano, TX</h4>
+                                    <h4 class="date">Aug 2021 to Sep 2023</h4>
+                                    <ul>
+                                        <li>Performed repairs, maintenance, calibration, and setup of current
+                                            manufacturing equipment.
+                                        </li>
+                                        <li>Identified equipment problems and implemented effective solutions.</li>
+                                        <li>Prepared technical summary reports for equipment issues.</li>
+                                        <li>Trained 3+ technicians on test troubleshooting and operations.</li>
+                                        <li>Used SQL and Python to discover product wastage and reduce expenses by
+                                            26%.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="experience">
+                                    <h3 class="job-title">Equipment Maintenance Technician II</h3>
+                                    <h4 class="company">Qorvo - Plano, TX</h4>
+                                    <h4 class="date">Jan 2021 – Aug 2021</h4>
+                                    <ul>
+                                        <li>Drove improvements to system performance to achieve process requirements.
+                                        </li>
+                                        <li>Provided technical subject matter expertise to monitor and analyze data.
+                                        </li>
+                                        <li>Excelled as the principal contact with engineers for equipment improvement
+                                            projects.
+                                        </li>
+                                        <li>Integrated new communication channels to maintain collaboration.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="experience">
+                                    <h3 class="job-title">MCAS Yuma Building Manager</h3>
+                                    <h4 class="company">USMC - Yuma, AZ</h4>
+                                    <h4 class="date">Jan 2020 to Jan 2021</h4>
+                                    <ul>
+                                        <li>Oversaw 1151 rooms for 2000 plus occupants, focusing on exceptional service
+                                            and support.
+                                        </li>
+                                        <li>Coordinated logistics for multiple deployments and staffing under strict
+                                            COVID requirements.
+                                        </li>
+                                        <li>Managed building maintenance, cleaning, and security staff.</li>
+                                        <li>Prepared and carried out emergency protocols and procedures.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="experience">
+                                    <h2 class="job-title">Work Center Supervisor - Air Traffic Control Navigation Aids
+                                        Technician</h2>
+                                    <h4 class="company">UNITED STATES MARINE CORPS</h4>
+                                    <h4 class="date">May 2016 to January 2021</h4>
+                                    <ul>
+                                        <li>Ensured strict compliance with policies and protocols in high-stress, combat
+                                            environments.
+                                        </li>
+                                        <li>Organized and performed periodic inspections and preventive maintenance.
+                                        </li>
+                                        <li>Expanded expertise and gained Senior Instructor Qualification.</li>
+                                        <li>Supervised and audited maintenance personnel performance.</li>
+                                        <li>Mentored maintenance personnel and exercised leadership techniques.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
 
         </section>
     </div>
 </main>
+<div id="resume-break"></div>
+
 <main id="contact">
     <div style="height: 1000px">
         <section id="contact-link">
             <br>
+            <br>
+            <br>
+            <br>
             <main>
                 <div>
-                    <h2 id="contact-h2">Contact Me</h2>
+                    <h2 id="contact-h2"><span>Contact Me</span></h2>
                 </div>
                 <section class="contact-form">
                     <div style="font-size: 15px">
@@ -216,62 +376,13 @@
         </section>
     </div>
 </main>
-<!-- Jquery needed -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
-
-<!-- Function used to shrink nav bar removing paddings and adding black background -->
-<script>
-    $(window).scroll(function () {
-        if ($(document).scrollTop() > 50) {
-            $('.nav').addClass('affix');
-            console.log("OK");
-        } else {
-            $('.nav').removeClass('affix');
-        }
-    });
-    window.addEventListener('scroll', () => {
-        const aboutH2 = document.getElementById('about-h2');
-        const scrollPosition = window.scrollY;
-        const elementPosition = aboutH2.offsetTop;
-
-        if (scrollPosition > elementPosition - window.innerHeight / 2) {
-            aboutH2.classList.add('animate');
-        }
-    });
-    window.addEventListener('scroll', () => {
-        const aboutH2 = document.getElementById('projects-h2');
-        const scrollPosition = window.scrollY;
-        const elementPosition = aboutH2.offsetTop;
-
-        if (scrollPosition > elementPosition - window.innerHeight / 2) {
-            aboutH2.classList.add('animate');
-        }
-    });
-    window.addEventListener('scroll', () => {
-        const aboutH2 = document.getElementById('resume-h2');
-        const scrollPosition = window.scrollY;
-        const elementPosition = aboutH2.offsetTop;
-
-        if (scrollPosition > elementPosition - window.innerHeight / 2) {
-            aboutH2.classList.add('animate');
-        }
-    });
-    window.addEventListener('scroll', () => {
-        const aboutH2 = document.getElementById('contact-h2');
-        const scrollPosition = window.scrollY;
-        const elementPosition = aboutH2.offsetTop;
-
-        if (scrollPosition > elementPosition - window.innerHeight / 2) {
-            aboutH2.classList.add('animate');
-        }
-    });
-</script>
 </body>
 <footer style="font-size: 12px;">
     <div class="container">
         <footer class="py-3 my-4">
-            <p class="text-center text-muted">© 2022 Lux Lyfe Designs, LLC</p>
+            <p class="text-center text-muted">© 2023 Lux Lyfe Designs, LLC</p>
         </footer>
     </div>
 </footer>

@@ -1,44 +1,87 @@
-
-
 /*this is my parent container, i can use display, justify-content, flex-direction, flex-wrap, align-items, and align-content in here*/
 .main-content {
-    height: auto;
-    width: auto;
+    height: 2000px;
+    width: 1500px;
     margin: auto;
     background-color: #00E676;
     outline: 3px #111111;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
 }
 
-.secondary {
-    height: 100px;
-    width: 100px;
-    background-color: #F1C40F;
-    outline: 3px #111111;
+.secondary{
+    background-color: #cc2e4b;
+    height: 350px;
+    width: 300px;
+    border: 3px solid #000000;
 }
+
+
 /*this is my children i can use order, flex-grow, flex-basis flex-shrink, align-self*/
 .secondary:nth-child(1) {
-    background-color: #cc2e4b;
-    height: 800px;
-    width: 600px;
-    border: 3px solid #000000;
     text-align: center;
-    margin-right: 300px;
-
 }
 
-
-.secondary:nth-child(2){
-    height: 800px;
-    width: 533px;
-    border: 1px solid #000000;
-    margin-left: 300px;
-
-
+.secondary:nth-child(2) {
+    text-align: center;
 }
-.container{
+
+.secondary:nth-child(3) {
+    text-align: center;
+}
+
+.secondary:nth-child(4) {
+    text-align: center;
+
+}.secondary:nth-child(5) {
+    text-align: center;
+}
+
+.secondary:nth-child(6) {
+    text-align: center;
+}
+
+.secondary:nth-child(7) {
+    text-align: center;
+}
+
+.secondary:nth-child(8) {
+    text-align: center;
+}
+.secondary:nth-child(9) {
+    text-align: center;
+}
+
+.secondary:nth-child(10) {
+    text-align: center;
+}
+
+.secondary:nth-child(11) {
+    text-align: center;
+}
+
+.secondary:nth-child(12) {
+    text-align: center;
+
+}.secondary:nth-child(13) {
+    text-align: center;
+}
+
+.secondary:nth-child(14) {
+    text-align: center;
+}
+
+.secondary:nth-child(15) {
+    text-align: center;
+}
+
+.secondary:nth-child(16) {
+    text-align: center;
+}
+
+.container {
     text-align: center;
 
 }
